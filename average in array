@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+ int main() {
+     int a[3],i,j;
+     int sum=0;
+     float avg=0;
+     printf("enter your number");
+     sum=avg=0;
+    for(i=0;i<3;i++){
+        scanf("%d",&a[i]);
+    } 
+    for(j=0;j<3;j++)
+    {
+       sum+=a[j];
+    
+    avg=sum/3;}
+    printf("avg of element=%f",avg);
+    
+    return 0;
+ }
